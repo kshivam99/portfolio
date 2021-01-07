@@ -2,15 +2,18 @@
 
 :root {
     --primary-color: #1F2937;
-    --off-white: #F3F4F6;
+    --off-white: #D1D5DB;
     --dark-gray: #6B7280;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px
+    margin: 0px;
 }
 
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
 img {
     border-radius: 8px;
   }
@@ -33,14 +36,14 @@ img {
   white-space: nowrap;
   overflow: hidden;    
   font-family: 'Source Code Pro', monospace;  
-  font-size: 40px;
+  font-size: 50px;
   color: rgba(255,255,255,.70);
   margin: 0 auto;
 }
 
 /* Animation */
 .heading {
-  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+  animation: animated-text 5s steps(29,end) 1s 1 normal both,
              animated-cursor 600ms steps(29,end) infinite;
 }
 
@@ -54,7 +57,7 @@ img {
 /* cursor animations */
 
 @keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
+  from{border-right-color: rgba(13, 219, 13, 0.842);}
   to{border-right-color: transparent;}
 }
 /**                                           **/
@@ -229,4 +232,17 @@ hr {
 /** blogs **/
 .showcase-blog {
     padding-bottom: 6rem;
+}
+
+.blog 
+{
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+}
+.coffee
+{
+    align-items: center;
+    margin-left: 33rem;
+    margin-bottom: 2rem;
 }
