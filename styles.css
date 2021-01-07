@@ -14,6 +14,15 @@ body {
 img {
     border-radius: 8px;
   }
+.logo
+{
+    width:60px;
+    height:60 px;
+    margin-left: 2rem;
+    vertical-align: bottom;
+    display: inline-block;
+}
+
 /**                         **/
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
@@ -67,7 +76,7 @@ hr {
 
 /** container **/
 .container {
-    padding: 0rem 1rem;
+    padding: 0rem 0.5rem;
 }
 
 .container-center {
@@ -120,6 +129,8 @@ hr {
     background-color: var(--primary-color);
     color: white;
     border-bottom-left-radius: 1rem;
+    margin: 0px;
+    max-height: 200px;
 }
 
 .navigation .nav-brand {
@@ -133,7 +144,7 @@ hr {
 }
 
 .navigation .nav-pills {
-    text-align: right;
+    text-align: left;
 }
 
 .navigation .link {
@@ -142,6 +153,7 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+    font-size: 30px;
 }
 
 /** header **/
@@ -153,7 +165,8 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 80%;
+    max-width: 60%;
+    height: 100px;
     width: 350px;
     display: block;
     margin: auto;
