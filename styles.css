@@ -86,7 +86,10 @@ hr {
     max-width: 600px;
     margin: auto;
 }
-
+.container-centerr {
+    max-width: 600px;
+    margin: auto;
+}
 /** links **/
 .link {
     box-sizing: border-box;
