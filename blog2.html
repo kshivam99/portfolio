@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
+    <title>blogs | kshivam99 </title>
+</head>
+<body>
+    <nav class="navigation container">
+        
+        <img class="logo" src="images/logo.svg"></img>
+
+
+        <ul class="list-non-bullet nav-pills">
+        <li class="nav-brand list-item-inline">
+            <a href="/">kshivam99</a></div> 
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="/">home</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="/projects.html">projects</a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link link-active" href="/blogs.html">blogs</a>
+        </li>
+    </ul>
+    </nav>
+
+    <header class="hero">
+
+        <h1 class="hero-heading">Understanding React JS in <span class="heading-inverted"> 5 mins </span></h1>
+        <img class="hero-img" src="images/react.svg" />
+
+    </header>
+
+            <article class="showcase-list container container-center ">
+            <small>January 8, 2020</small>
+            <p>In this blog, I'll try to explain React in the most basic way. I will not bother to explain all other concepts which are not core.</p>
+            <h2> The Setup </h2>
+            <p>When getting started with React, we should use the simplest setup possible: an HTML file which imports the React and the ReactDOM libraries using script tags.</p>
+            <p>It looks something like this:</p>
+            <p class="codepen" data-height="426" data-theme-id="light" data-default-tab="js" data-user="kshivam99" data-slug-hash="jOMpOJr" style="height: 426px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="jOMpOJr">
+                <span>See the Pen <a href="https://codepen.io/kshivam99/pen/jOMpOJr">
+                jOMpOJr</a> by Kumar Shivam (<a href="https://codepen.io/kshivam99">@kshivam99</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            <p>We’ve also imported Babel, as React uses something called JSX to write markup. We’ll need to transform the JSX into plain JavaScript, so that the browser can understand it.</p>
+            <h2>Components</h2>
+            <p>
+                Everything in React is a component, and these usually take the form of JavaScript classes. You create a component by extending upon the React-Component class. Let’s create a component called Hello:
+            </p>
+            <p class="codepen" data-height="182" data-theme-id="light" data-default-tab="js" data-user="kshivam99" data-slug-hash="yLaqLmb" style="height: 182px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="yLaqLmb">
+                <span>See the Pen <a href="https://codepen.io/kshivam99/pen/yLaqLmb">
+                yLaqLmb</a> by Kumar Shivam (<a href="https://codepen.io/kshivam99">@kshivam99</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+              <p>
+                  Then, there are methods for the component. Here, we have used only one method and thats <mark>render()</mark>.
+              </p>
+              <p>
+                Inside <mark>render()</mark> you’ll return a description of what you want React to draw on the page.
+                 In the case above, we simply want it to display an h1 tag with the text Hello world! inside it.
+              </p>
+              <p>
+                  to get this tiny code to render on screen we need to use <mark> ReactDOM.render():</mark>
+              </p>
+              <p class="codepen" data-height="181" data-theme-id="light" data-default-tab="js,result" data-user="kshivam99" data-slug-hash="wvzxBBM" style="height: 181px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="wvzxBBM">
+                <span>See the Pen <a href="https://codepen.io/kshivam99/pen/wvzxBBM">
+                wvzxBBM</a> by Kumar Shivam (<a href="https://codepen.io/kshivam99">@kshivam99</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+              <p>
+                So this is where we connect our Hello component with the entry point for the app (&lt;div id="root"&gt;&lt;/div&gt;).
+              </p>
+              <p>
+                  So, we are basically saying to render the Hello component inside the DOM node with an id of root!
+              </p>
+              <p>
+                  It results in following:
+              </p>
+              <img src="images/hello.png" height=80px; width=700px;>
+              <p>
+                  The next task is to handle data.
+              </p>
+              <h2>Handling Data</h2>
+        </article>
+            <hr >
+            <div class="coffee">
+                <h1> If you like my work, Support me here!</h1>
+                <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="kshivam99" data-color="#403b3b" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+
+            </div>
+
+    <footer class="footer">
+        <div class="footer-header">social media presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/kshivam99">
+                    github
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com">
+                    twitter
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/kumar-shivam-93545198/">
+                    linkedin
+                </a>
+            </li>
+            
+        </ul>
+    </footer>
+    
+</body>
+</html>
