@@ -30,65 +30,39 @@
 
     <header class="hero">
 
-        <h1 class="hero-heading">Understanding React JS in <span class="heading-inverted"> 5 mins </span></h1>
-        <img class="hero-img" src="images/react.svg" />
+        <h1 class="hero-heading">Learn Vanilla JS before <span class="heading-inverted"> React </span></h1>
+        <img src="images/react.png" height="200px" width="500px" style="margin-left:30% ;"/>
 
     </header>
 
             <article class="showcase-list container container-centerr ">
             <small>January 8, 2020</small>
-            <p>In this blog, I'll try to explain React in the most basic way. I will not bother to explain all other concepts which are not core.</p>
-            <h2> The Setup </h2>
-            <p>When getting started with React, we should use the simplest setup possible: an HTML file which imports the React and the ReactDOM libraries using script tags.</p>
-            <p>It looks something like this:</p>
-            <p class="codepen" data-height="426" data-theme-id="light" data-default-tab="js" data-user="kshivam99" data-slug-hash="jOMpOJr" style="height: 426px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="jOMpOJr">
-                <span>See the Pen <a href="https://codepen.io/kshivam99/pen/jOMpOJr">
-                jOMpOJr</a> by Kumar Shivam (<a href="https://codepen.io/kshivam99">@kshivam99</a>)
-                on <a href="https://codepen.io">CodePen</a>.</span>
-              </p>
-              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-            <p>We’ve also imported Babel, as React uses something called JSX to write markup. We’ll need to transform the JSX into plain JavaScript, so that the browser can understand it.</p>
-            <h2>Components</h2>
+            <h2>
+                First of all, What the heck is Vanilla Js. Well,
+            </h2> 
+            <h3>
+                VanillaJS is a term for library/framework free javascript.
+                
+                Its sometimes ironically referred to as a library, as a joke for people who could be seen as mindlessly using different frameworks, especially jQuery.
+                
+                Some people have gone so far to release this library, usually with an empty or comment-only js file
+            
+            </h3>
+            
+            <small>Definition from StackOver Flow</small>
             <p>
-                Everything in React is a component, and these usually take the form of JavaScript classes. You create a component by extending upon the React-Component class. Let’s create a component called Hello:
+                Yes, Learning React is possible without knowing JavaScript in depth, and I am also guilty of the same crime but I cannot stress more on this that It's always better to know JavaScript 
+                before learning any framework for the obvious reason, " You understand better."
+             
             </p>
-            <p class="codepen" data-height="182" data-theme-id="light" data-default-tab="js" data-user="kshivam99" data-slug-hash="yLaqLmb" style="height: 182px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="yLaqLmb">
-                <span>See the Pen <a href="https://codepen.io/kshivam99/pen/yLaqLmb">
-                yLaqLmb</a> by Kumar Shivam (<a href="https://codepen.io/kshivam99">@kshivam99</a>)
-                on <a href="https://codepen.io">CodePen</a>.</span>
-              </p>
-              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            <p>
+                As React is a <a href="https://en.wikipedia.org/wiki/Declarative_programming#:~:text=In%20computer%20science%2C%20declarative%20programming,without%20describing%20its%20control%20flow.">declarative framework</a>
+                 You dont need to know whats actually happening in background, but if you need to become a better developer you should know how things work. This will not only develop your core skills but also make you understand the framework better.
+            </p>
+            <p>
+                 Trust me, this will even help you a lot while debugging, if you know how things work.
+            </p>
 
-              <p>
-                  Then, there are methods for the component. Here, we have used only one method and thats <mark>render()</mark>.
-              </p>
-              <p>
-                Inside <mark>render()</mark> you’ll return a description of what you want React to draw on the page.
-                 In the case above, we simply want it to display an h1 tag with the text Hello world! inside it.
-              </p>
-              <p>
-                  to get this tiny code to render on screen we need to use <mark> ReactDOM.render():</mark>
-              </p>
-              <p class="codepen" data-height="181" data-theme-id="light" data-default-tab="js,result" data-user="kshivam99" data-slug-hash="wvzxBBM" style="height: 181px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="wvzxBBM">
-                <span>See the Pen <a href="https://codepen.io/kshivam99/pen/wvzxBBM">
-                wvzxBBM</a> by Kumar Shivam (<a href="https://codepen.io/kshivam99">@kshivam99</a>)
-                on <a href="https://codepen.io">CodePen</a>.</span>
-              </p>
-              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-              <p>
-                So this is where we connect our Hello component with the entry point for the app (&lt;div id="root"&gt;&lt;/div&gt;).
-              </p>
-              <p>
-                  So, we are basically saying to render the Hello component inside the DOM node with an id of root!
-              </p>
-              <p>
-                  It results in following:
-              </p>
-              <img src="images/hello.png" height=80px; width=700px;>
-              <p>
-                  The next task is to handle data.
-              </p>
-              <h2>Handling Data</h2>
         </article>
             <hr >
             <div class="coffee">

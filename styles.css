@@ -238,3 +238,6 @@ mark {
     transform: scale(1.3);
  }
   
+ p{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
